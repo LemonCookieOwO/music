@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: left;
+    text-shadow: 5px;
+    font-size: 2rem;
+    color: rgb(255, 116, 146);
+    position: absolute;
+    left: 2%;
+    top: 1%;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: white;
+    z-index: 20;
+    padding: 10px;
+}
+
+.Pony{
+    position: absolute;
+    top: 87%;
+    left: 1%;
+}
+
+nav {
+    max-width: 600px;
+    margin: auto;
+    font-size: 15px;
+    margin-top: 50px;
+    color: black;
+}
+
+.MenuH {
+    position: absolute;
+    z-index: 20;
+    top: 2.5%;
+    left: 33.5%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.MenuH>li>a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+
+}
+
+.MenuH>li:hover {
+    background-color:rgb(228, 228, 228);
+}
+
+.MenuV {
+    position: absolute;
+    z-index: 20;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+}
+
+.MenuH li:hover .MenuV {
+    display: block;
+}
+
+.MenuV li:hover {
+    background-color:rgb(228, 228, 228);
+}
+
+.MenuV li a {
+    display: block;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+
+}.MenuInde {
+    font-family: 'Courier New', Courier, monospace;
+}   
+
+.medias {
+    position: absolute;
+    top: 1.5%;
+    left: 95%;
+    margin: auto;
+    width: 100px;
+    z-index: 20;
+    padding: 10px;
+}
+
+.Names{
+    color: rgb(164, 229, 255);
+    position: absolute;
+    top: 20%;
+    left: 18%;
+    text-align: center;
+    font-size: 7rem;
+    font-family: 'Bree Serif', serif;
+    padding: 20px;
+}
+
+.More{
+    position: absolute;
+    top: 60%;
+    left: 37%;
+    padding: 20px;
+}
+
+.myself{
+    position: absolute;
+    left: 23%;
+    top: 90%;
+    padding: 20px;
+    width: 900px;
+}

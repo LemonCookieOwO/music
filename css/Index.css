@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: left;
+    text-shadow: 5px;
+    font-size: 2rem;
+    color: rgb(255, 116, 146);
+    position: absolute;
+    left: 2%;
+    top: 1%;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: white;
+    z-index: 20;
+    padding: 10px;
+}
+
+.Pony{
+    position: absolute;
+    top: 86%;
+    left: 1%;
+    padding: 10px;
+}
+
+nav {
+    max-width: 600px;
+    padding: 20px;
+    margin: auto;
+    font-size: 15px;
+    margin-top: 50px;
+    color: black;
+}
+
+.MenuH {
+    position: absolute;
+    z-index: 20;
+    top: 2.5%;
+    left: 33.5%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.MenuH>li>a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+
+}
+
+.MenuH>li:hover {
+    background-color:rgb(228, 228, 228);
+}
+
+.MenuV {
+    position: absolute;
+    z-index: 20;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+}
+
+.MenuH li:hover .MenuV {
+    display: block;
+}
+
+.MenuV li:hover {
+    background-color: rgb(228, 228, 228);
+}
+
+.MenuV li a {
+    display: block;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+
+}.MenuInde {
+    font-family: 'Courier New', Courier, monospace;
+}   
+
+.RandomPhoto {
+    margin: auto;
+    position: absolute;
+    top: 16%;
+    left: 35%;
+    z-index: 10;
+    padding: 20px;
+}
+
+.Thing {
+    margin: auto;
+    position: absolute;
+    top: 95%;
+    left: 47%;
+}
+
+.Welcome{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.medias {
+    position: absolute;
+    top: 1.5%;
+    left: 95%;
+    margin: auto;
+    width: 100px;
+    z-index: 20;
+    padding: 10px;
+}
+
+.Welcome{
+    position: absolute;
+    top: 85%;
+    left: 45%;
+    
+}
+
